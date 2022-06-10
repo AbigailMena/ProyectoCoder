@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+   
+body{
+font-family: 'open sans', sans-serif;
+}
+.contenedor{
+    padding: 60px 0;
+    width: 1100px;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+   }
+
+   .titulo{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin: bottom 60px; 
+}
+
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #bdc3c7;  
+background: -webkit-linear-gradient(to right, hsla(210, 29%, 24%, 0.651), hsla(204, 8%, 76%, 0.616)), url(../Images/fondogris.jpg) ;
+background: linear-gradient(to right, hsla(210, 29%, 24%, 0.651), hsla(204, 8%, 76%, 0.616)), url(../Images/fondogris.jpg);
+background-size:cover;
+background-attachment: fixed ;
+position: relative;
+}
+
+.texto-header{
+display: flex;
+width: 100%;
+height: 430px;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.texto-header h1 {
+    font-size: 100px;
+    color:blue
+}
+
+.texto-header h2{
+    color: black;
+    font-size: 50px;
+}
+nav{ 
+    flex-wrap: wrap;
+    height: 90px;
+    text-align: right;
+    padding: 30px 50px 0 0;
+
+}
+nav ul li {
+    float: right;
+    list-style: none;
+    margin: 25px;
+    font-size: 25px;
+    flex: 1;
+    text-align: right 
+    
+}
+
+nav a{
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav a:hover { 
+    text-decoration: underline;
+}
+
+.ola {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.contenedor-nosotros{
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+.contenedor-sobre-nosotros{
+width: 48%;
+
+}
+.texto-presentacion{
+width: 48%;
+
+}
+
+.texto-presentacion h3{
+margin-bottom: 15px;
+
+}
+.texto-presentacion h3 span{
+background-color: black;
+color: gray;
+border-radius: 50%;
+display: inline-block;
+text-align: center;
+width: 30px;
+height: 30px;
+padding: 2px;
+box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+padding: 2px;
+}
+
+.texto-presentacion p {
+    padding: 0 0 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.nuestros-productos{
+background: #f2f2f2;
+}
+
+.galeria{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+
+.galeria-imagen{
+    display: flex;
+    width: 50%;
+    margin-bottom: 10px;
+    height: 200px;
+overflow: hidden;
+position: relative;
+cursor: pointer;
+box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+
+
+}
+.imagen img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+
+.icono-galeria{
+    position: absolute;
+     width: 100%;
+    height: 100%;
+    top: 0%;
+    transform:scale(0);
+    background: gray;
+    transition: transition .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icono-galeria img{
+width: 50px;
+
+}
+
+.icono-galeria p {
+color: #ffffff
+
+}
+
+@media  screen  and (max-width:900px) {
+header{background-position: center;
+}
+.contenedor-nosotros{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-sobre-nosotros{
+
+    width: 90%;
+}
+
+.galeria-imagen{
+    width: 50%;
+}
+
+.contenedor-comentarios {
+flex-direction: column;
+justify-content:  center;
+align-items: center;
+}
+
+.clientes {
+    width: 90%;
+}
+
+.clientes:first-child{
+    margin-bottom: 30px;
+}
+
+.servicios
+flex-direction: column;
+justify-content:  center;
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    @import url('https://fonts.googleapis.com/css2? family=Koulen&family=Zen+Antique&display=swap');
+    body{
+     background-color: lightgrey;
+     font-family:'Zen Antique', serif; 
+    }
+    
+   #negocio {
+    width: 1100px;
+    margin: 0px auto;
+ }
+
+
+ header{
+     display: grid;
+     background-color: grey;
+     height: 100px;
+     text-align: center;
+     width: 100%;
+     color:#ffffff;
+     font-size: 40px;
+}
+    nav{ 
+        flex-wrap: wrap;
+         background-color:beige;
+        height: 90px;
+
+    }
+    nav ul li {
+        float: left;
+        list-style: none;
+        margin: 25px;
+        font-size: 25px;
+        flex: 1;
+    }
+    .espacio{
+        clear: both;
+    }
+
+    #productos{
+        flex: 2;
+        float: left;
+        width: 80%;
+        background-color: aliceblue;
+        min-height: 500px;
+    }
+
+    #categorias{
+
+        float:left;
+        width: 80%;
+        background-color: aliceblue;
+        min-height: 500px;
+        }
+
+        #contacto{
+            float:left;
+            width: 80%;
+            background-color: aliceblue;
+            min-height: 500px;
+            }
+
+            #pago{
+                float:left;
+                width: 80%;
+                background-color: aliceblue;
+                min-height: 500px;
+                }
+                
+                #envios{
+                    float:right;
+                    width: 80%;
+                    background-color: aliceblue;
+                    min-height: 500px;
+                    }          
+
+                    
+                   
+                   
+                   
+     aside {
+        float: left;
+        width: 20%;
+        min-height: 500px;
+         background-color: grey;
+         padding-top: 50px;
+     }          
+
+    .izquierda {
+    float: right;
+    background-position: right center;
+    }
+
+    .logo {
+        float:right;
+        font-size: 20px;
+    }
+
+    article{
+        float:left;
+        list-style: none;
+        margin: 10px;
+        color:black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        color: black;
+        background-color: grey;
+    }
+
+   .piedepagina{
+       float: left;
+       font-size: 20px;
+       background-color: grey;
+   }
